@@ -1,6 +1,6 @@
 (function () {
   const WEBHOOK_URL = "https://n8n.opalsea.site/webhook/opalsea-chat";
-  const WELCOME_MESSAGE = "Bonjour ! Je suis l'assistant d'Opalsea. Je peux vous renseigner sur nos services (Odoo, développement web, automatisation). Comment puis-je vous aider ?";
+  const WELCOME_MESSAGE = "Bonjour ! Je suis l'assistant d'Opalsea. Je peux vous renseigner sur nos services. Comment puis-je vous aider ?";
   const PRIMARY_COLOR = "#0ea5a0";
   const PRIMARY_DARK = "#0c8a86";
 
@@ -155,7 +155,7 @@
   win.innerHTML = `
     <div id="opalsea-chat-header">
       <svg viewBox="0 0 24 24" width="20" height="20" fill="white" style="flex-shrink:0"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>
-      <span>Assistant Opalsea</span>
+      <span>Loïc | Agent IA</span>
       <button id="opalsea-chat-close" aria-label="Fermer">✕</button>
     </div>
     <div id="opalsea-chat-messages"></div>
