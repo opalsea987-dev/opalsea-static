@@ -1,5 +1,5 @@
 (function () {
-  const WEBHOOK_URL = "https://n8n.opalsea.site/webhook/opalsea-chat";
+  const WEBHOOK_URL = "https://n8n.opalsea.site/webhook/86984db2-e2e8-4e1c-b57c-1ccd24b4126e";
   const WELCOME_MESSAGE = "Bonjour ! Je suis l'assistant d'Opalsea. Je peux vous renseigner sur nos services. Comment puis-je vous aider ?";
   const PRIMARY_COLOR = "#0ea5a0";
   const PRIMARY_DARK = "#0c8a86";
