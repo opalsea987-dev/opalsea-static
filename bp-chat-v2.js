@@ -27,7 +27,6 @@
       cursor: pointer;
       z-index: 9999;
       padding: 0;
-      transition: transform 0.2s ease-out;
     }
     #opalsea-avatar-wrap {
       width: 100%;
@@ -285,25 +284,6 @@
   inputEl.addEventListener("input", () => {
     inputEl.style.height = "auto";
     inputEl.style.height = Math.min(inputEl.scrollHeight, 80) + "px";
-  });
-
-  // Parallax léger : le bouton suit la souris quand elle est à proximité
-  const PARALLAX_RADIUS = 260;
-  const MAX_OFFSET = 8;
-  document.addEventListener("mousemove", (e) => {
-    const rect = btn.getBoundingClientRect();
-    const cx = rect.left + rect.width / 2;
-    const cy = rect.top + rect.height / 2;
-    const dx = e.clientX - cx;
-    const dy = e.clientY - cy;
-    const dist = Math.sqrt(dx * dx + dy * dy);
-    if (dist < PARALLAX_RADIUS) {
-      const strength = (1 - dist / PARALLAX_RADIUS) * MAX_OFFSET;
-      const angle = Math.atan2(dy, dx);
-      btn.style.transform = `translate(${Math.cos(angle) * strength}px, ${Math.sin(angle) * strength}px)`;
-    } else {
-      btn.style.transform = "translate(0,0)";
-    }
   });
 
 })();
