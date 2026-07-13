@@ -8,7 +8,7 @@
   const BORDER = "#1f2b3a";
   const TEXT_LIGHT = "#e8f9fa";
   const TEXT_MUTED = "#7d93a3";
-  const AVATAR_URL = "https://res.cloudinary.com/dnefts1oc/image/upload/v1783890713/Loic_chatbot_avatar_brt0sb.png";
+  const AVATAR_URL = "https://res.cloudinary.com/dnefts1oc/image/upload/v1783902679/Loic_chatbot_avatar_ecnb6k.webp";
 
   const style = document.createElement("style");
   style.textContent = `
