@@ -3,7 +3,7 @@
   const WELCOME_MESSAGE = "Bonjour ! Je suis Lia, l'assistante de Belrose Place. Je peux répondre à vos questions sur nos logements et vous aider pour votre séjour. Comment puis-je vous aider ?";
   const PRIMARY_COLOR = "#1e3a5f";
   const PRIMARY_DARK = "#152b47";
-  const AVATAR_URL = "https://res.cloudinary.com/dnefts1oc/image/upload/v1783809760/acfa7307-bf72-482f-b9e7-336bd9402de2_zkxi9p.png";
+  const AVATAR_URL = "https://res.cloudinary.com/dnefts1oc/image/upload/v1784524485/liapicsq_ntvvxd.webp";
   const AVATAR_VIDEO_URL = "https://res.cloudinary.com/dnefts1oc/video/upload/f_auto,q_auto/v1784408688/lia_vid_ovntqf.mp4";
 
   const style = document.createElement("style");
